@@ -3,6 +3,7 @@
 #include <math.h>
 
 int main(void){
+    //get the values
     int a;
     int b;
     int c;
@@ -16,7 +17,8 @@ int main(void){
 
     std::cout<<"\nType the c: ";
     std::cin>>c;
-
+    
+    //formula
     float baskara = a*x*x + b*x + c;
     float totalPos = (-b + sqrt(b*b - (4*a*c)))/2*a;
     float totalNeg = (-b - sqrt(b*b - (4*a*c)))/2*a;
